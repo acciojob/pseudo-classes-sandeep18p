@@ -7,39 +7,38 @@
     p:first-child {
         color: white;
         background-color: black;
-        padding: 10px;
+        
     }
     
-    p:nth-child(2) {
-        padding: 10px;
-    }
+    
     
     p:last-child {
         color: red;
-        padding: 10px;
+
     }
     
     ul {
-        list-style: none;
-        padding: 10;
-        list-style-type: disc;
-    }
-    
-    li {
-        width: 50%;
-        padding: 10px;
-        background-color: gray;
-    }
-    
-    li:nth-child(odd) {
-        background-color: white;
-    }
-    
-    li:first-child,
-    li:last-child {
-        font-size: 22px;
-    }
-    
-    li:nth-last-child(3) {
-        background-color: pink;
-    }
+            list-style-type: none;
+            padding: 0;
+            width: 50%;
+        }
+
+        li {
+            padding: 10px;
+            width: 100%;
+            background-color: gray;
+            font-size: 16px; /* Default font size */
+        }
+
+        li:nth-child(odd) {
+            background-color: white;
+        }
+
+        li:first-child,
+        li:last-child {
+            font-size: 22px;
+        }
+
+        li:nth-last-child(3) {
+            background-color: pink;
+        }
